@@ -42,7 +42,7 @@
     }
 
     .liner-div {
-      width: 60%;
+      width: 75%;
       height: 90%;
       background-color: hsl(264, 100%, 61%);
       background: linear-gradient(190deg, hsl(293, 100%, 63%) 0%, hsl(264, 100%, 61%) 100%);
@@ -56,13 +56,14 @@
       max-width: 540px;
       position: absolute;
       top: 50%;
-      left: 50%;
+      left: 68%;
       transform: translate(-50%,-50%);
       border-radius: 50px;
       border: solid 10px #fffffd;
       background-color: #f5f3f8;
       overflow: hidden;
     }
+    
 
     @media (max-width:768px) {
       .content {
@@ -77,7 +78,15 @@
       .liner-div {
         border-radius: 0 0 100% 0%;
         left: 0;
+        width: 60%;
+
       }
+      
+    .mobile {
+      left: 50%;
+
+    }
+    
 
     }
 @media (max-width:1100px) {
@@ -333,12 +342,12 @@
       .section-text .content-text {
         text-align: center;
         width: 100%;
-        padding: 50px;
+        padding: 15px 50px;
       }
 
 
       .section-text .content-text p {
-
+        font-size: 19px;
         line-height: 1.2;
       }
     }
